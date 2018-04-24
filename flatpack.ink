@@ -58,8 +58,6 @@ With the fireplace lit, you feel better (and much warmer).
 * [Search for food] -> search_for_food
 * [Search for weapons] -> search_for_weapons
 
--> DONE
-
 === try_to_make_it_work ===
 
 <code><b>Using your Ekia Sköl light repeating crossbow.</b></code>
@@ -76,8 +74,6 @@ If you go further into the castle you might find something more useful as a weap
 
 * [Move deeper into the castle] -> portcullis
 * [Use the croossbow to booby-trap the door] booby_trap
-
--> DONE
 
 === bar_the_door ===
 
@@ -133,9 +129,69 @@ There is a blanket fort some enterprising children made
 
 === garden ===
 
+<code><b>Using the Ekia Duug trenching tool</b></code>
+
+<code>Before digging a latrine, defensive trench, grave, or escape tunnel, move the blade from position 1) (closed) to position 2) (pick) or position (3) shovel. The pick position is used for rapidly loosening soil, the shovel position is for removing soil from the digging area. NOTE: the Ekia Duug trenching tool is not recommended to use as a weapon, using it as a weapon will void its warranty.</code>
+<i>You are in the garden section, surrounded by planters and decorative vases. There is an Ekia Duug trenching tool on the floor by the exit of an escape tunnel. There is a shed containing an Ekia Buuz chainsaw. Outside the chainlink fence a path leads down into the ravine to the river. A door leads into the kitchen.</i>
+The children apparently used their blanket fort to dig an escape tunnel from Tinylaand. Smart kids. You help yourself to the chainsaw and heft the trenching tool.
+[Go through gate in chainlink fence to river] -> river
+[Go into the kitchen] -> die_in_kitchen
+
+=== river ===
+
+You make rapid progress along the river, soon coming to an armed encampment. It is an outpost of humans, nested defensively in the caves along the ravine, with acess to clean water and able to hold off the invaders indefinitely. There may be no-where completely safe in this world, but you have escaped for now.
+
+-> DONE
+
+
+=== die_in_kitchen ===
+
+You aren't the first to discover the kitchen, the creatures are already there. When they see you coming they stop struggling to open the canned meatballs and eat you instead.
+
 -> DONE
 
 === search_for_food ===
+
+<code><b>Ekia Kefte meatballs</b></code>
+
+<code>Warming instructions: Place Ekia Kefte meatballs in a microwave-safe container and head on HIGH for 5 minutes. DO NOT BOIL. Use caution, as meatballs will be hot after heating. Serve with Ekia Berg salad and Ekia Viino red wine.</code>
+
+You find several cases of Ekia meatballs in sauce. You manage to open one with the odd part you have left over and some struggle, and wedge it into the fire to heat up. The door handle rattles and as the catch disengages you panic, thinking the creatures have arrived while you were distracted, and then you see {friend_name} come through the door. You hug each other in releif, and together you move the furniture to block the door. You share the hot meatballs, eating them out of the can with your fingers, getting sauce everywhere and laughing. For the first time you feel like something is right with the world.
+[Fall asleep by the fire] -> die_happy
+[Move deeper into the castle] -> dining_room
+
+=== die_happy ===
+
+You felt so goo at being reunited with {friend_name} that you both let your guard down. Warm and fed, you fall asleep in each other's arms, you never even hear the creatures burst through the door, never even wake up.
+
+-> DONE
+
+=== dining_room ===
+
+You grab several bags of Ekia Parfiin candles as you pass swiftly through.
+
+[Go up stairs] -> upper_showroom
+[Go into office] -> office
+
+=== upper_showroom ===
+
+-> DONE
+
+=== office ===
+
+This room was for managers, and before that for the elite guards, it has a heavy reinforced door that can be barred from the inside. There is a computer here, which seems to be on backup power, the phosphorecent green screen beckons to you. Amazingly enough, it even has internet access, so not all of the world has crumbled.
+[Send goodbye messages to loved ones] -> die_content
+[Check the news] -> await_rescue
+
+=== die_content ===
+
+After you send emails telling your family you love them, you hear the creatures arrive outside the door. They won't be getting in any time soon, but there's no way out either. You and {friend_name} hold each other tight. At least here, at the end of the world, you have each other.
+
+-> DONE
+
+=== await_rescue ===
+
+The news isn't all bad. The human resistance has been striking back, and surviving military outposts have had success in driving the invaders off. As long as you can hold out a little longer, it seems like this nightmare may actually end. You and {friend_name} look around the small room. There are worse places to await rescue, and you have each other.
 
 -> DONE
 
@@ -198,9 +254,20 @@ The tower is high enough that your body bounces once on the hard flagstones of t
 
 === dungeons ===
 
+As you decend into the dungeons you see daylight streaming through a breach in the wall. Exploring further you see that it lets out into the river valley behind the castle. There is a path and as you hurry along you see people ahead, armed to defend against the invaders. You have escaped!
+
 -> DONE
 
 === icky_ending ===
+
+As you desperately fight to raise the portcullis, the creatures swarm in on the other side. You take {friend_name}'s hand, until she is jerked away and you're helplessly forced to witness them devour her. Then they turn their attention to the gate and it's clear even these thick bars won't hold them indefinitely.
+
+[Flee in terror] -> die_in_kitchen
+[Collapse in despair] -> die_in_vain
+
+=== die_in_vain ===
+
+You curl into a ball on the floor, sobbing. The all you can see is the look in {friend_name} eyes as she died. It's useless to go on, and you don't want to live with what you've seen. You're dimly aware of the bars giving way, and you welcome the end as they close on you.
 
 -> DONE
 
