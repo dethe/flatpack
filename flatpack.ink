@@ -285,6 +285,17 @@ You find an Ekia army knife, which could come in handy. As you pocket your find 
 
 === booby_trap ===
 
--> DONE
+You manage to prop the crossbow on the table, with a chair against the trigger and another chair balanced againt the door, to fall on the trigger chair when something comes through. Satisfied, you hurry further into the castle. 
+[Go into Library] -> library
+[Go into kitchen] -> die_in_kitchen
+
+=== library ===
+
+You find a library of display books. Maybe they will be useful as kindling. As you look around for something to put some of them in, the door opens and {friend_name} stumbles in, bleeding. She has a crossbow bolt in her shoulder. "Oh no, I didn't think my trap would get you!"
+She smiles and pulls out the bolt, "Good thing for me you are lousy at traps or you could have really hurt me." Examining the wound, you can see it isn't deep.
+You hug each other in relief and hurry to get further from the creatures pursuing you.
+[Go into kitchen] -> die_in_kitchen
+[Head for the dungeons] -> dungeons
+
 
 
