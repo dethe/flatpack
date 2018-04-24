@@ -1,5 +1,6 @@
 VAR friend_name = "Lexi"
 VAR friend_pronoun = "she"
+VAR friend_dead = false
 
 -> step_five
 
@@ -73,7 +74,7 @@ You can't find anything which looks like the picture of the cocking foot, but yo
 If you go further into the castle you might find something more useful as a weapon, or a room that is easier to blockade.
 
 * [Move deeper into the castle] -> portcullis
-* [Use the croossbow to booby-trap the door] booby_trap
+* [Use the croossbow to booby-trap the door] -> booby_trap
 
 === bar_the_door ===
 
@@ -175,6 +176,8 @@ You grab several bags of Ekia Parfiin candles as you pass swiftly through.
 
 === upper_showroom ===
 
+You hear a crash behind you as the creatures come through your crude barricade. You rush up the stairs together, but the upstairs showroom is closed after hours and there is a metal gate across it. {friend_name} tries to pick the lock, but there is no time, the creatures are upon you. You look bravely into each other's eyes at the end.
+
 -> DONE
 
 === office ===
@@ -227,7 +230,8 @@ Panicked, you start looking around for some way to raise the portcullis, but you
 <code><b>CAUTION: Stairs are slippery when wet.</b></code>
 <code>No running, skateboarding, rollerblading, or walking with Ekia Polle stilts on stairs.</code>
 <i>The stairs down to the dungeons were part of the original castle. The stairs up to the towere were added on later because prisoners found the dungeons too depressing while they awaited their torture and execution.</i>
-Despite {friend_name}'s encouragement, you are devastated to leave her. You can hear the creatures arrive at the portcullis behind you, and you hear her screams, mercifully cut short. You must escape or her death will have been in vain.
+{ friend_dead: Despite {friend_name}'s encouragement, you are devastated to leave her. You can hear the creatures arrive at the portcullis behind you, and you hear her screams, mercifully cut short. You must escape or her death will have been in vain. }
+{ not friend_dead: Holding each other's hands tightly, you look up and down the stairs, knowing that your decision here is a matter of life and death. You can hear the bars of the portcullis behind you straining as the creatures stive to get through }
 [Take spiral stairs up to tower] -> tower
 [Take straight stairs down to dungeons] -> dungeons
 
@@ -272,6 +276,10 @@ You curl into a ball on the floor, sobbing. The all you can see is the look in {
 -> DONE
 
 === loot_the_bodies ===
+
+You find an Ekia army knife, which could come in handy. As you pocket your find you hear footsteps behind you and your heart leaps. {friend_name} rushes through the open gate into your arms. Neither of you can believe your luck, but she pushes away and rushes to let the portcullis down. "They're right behind me, we don't have time to waste," she says.
+
+[Retreat to the nearby stairs] -> stairwell
 
 -> DONE
 

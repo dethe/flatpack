@@ -86,7 +86,7 @@
             });
         });
 
-        scrollToBottom();
+        // scrollToBottom();
     }
 
     continueStory();
